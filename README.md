@@ -45,6 +45,7 @@ torneo infinito
 cada vez que el jugador gane se le añadira al enemigo un 0.3 de daño y vida, y al jugador un 0.5 que podra elegir si va a la vida o al daño.
 el jugador no podrá cambiar de equipo pokemon y no podra guardar la partida ni sus estadisticas durante el torneo.
 despues de cada ronda el usuario podra elegir si quiere ver la mochila, seguir a la siguiente batalla o salir del juego.
+cada ciertas rondas se recuperan los objetos.
 Registro de combates (ronda máxima)
 
 
