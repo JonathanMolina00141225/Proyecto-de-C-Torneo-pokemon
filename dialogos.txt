@@ -1,0 +1,40 @@
+Bienvenido al mundo Pokémon.
+
+Selecciona un modo para jugar.
+1. PvP
+2. PvE
+
+(PvP)
+Jugador1, selecciona 3 pokemons.
+Jugardo2, selecciona 3 pokemons.
+
+La lucha entre Jugador1 y Jugador2 comienza.
+
+¿Qué quieres hacer?
+1. Luchar
+2. Mochila
+3. Pokémon
+4. Huir
+
+(PvE)
+Jugador1, selecciona 3 pokemons para jugar el torneo
+
+¡Este torneo es infinito!
+Cuanto más avances dentro del torneo se le subirá la dificultad a los enemigos.
+No podrás cambiar de equipo durante el torneo.
+Después de cada ronda se te mostrarán diferentes elecciones.
+
+RONDA 1
+
+Avanzas de ronda.
+
+¿Qué quieres hacer?
+1. Luchar
+2. Mochila
+3. Pokémon
+4. Huir
+
+Saliste del torneo.
+
+YOU LOST.
+

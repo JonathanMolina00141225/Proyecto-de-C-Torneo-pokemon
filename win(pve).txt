@@ -1,0 +1,8 @@
+GANASTE
+Avanzas a la siguiente ronda.
+
+¿Qué quieres hacer?
+1. Luchar
+2. Mochila
+3. Pokémon
+4. Huir

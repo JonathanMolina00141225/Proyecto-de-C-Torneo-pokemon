@@ -1,0 +1,3 @@
+Jugador1, selecciona 3 pokemons para jugar el torneo
+
+

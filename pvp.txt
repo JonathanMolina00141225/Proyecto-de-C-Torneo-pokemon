@@ -1,0 +1,10 @@
+Jugador1, selecciona 3 pokemons.
+Jugardo2, selecciona 3 pokemons.
+
+La lucha entre Jugador1 y Jugador2 comienza.
+
+¿Qué quieres hacer?
+1. Luchar
+2. Mochila
+3. Pokémon
+4. Huir
