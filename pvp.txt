@@ -1,9 +1,9 @@
-Jugador1, selecciona 3 pokemons.
-Jugardo2, selecciona 3 pokemons.
+Player 1, make your selection of your 3 pokemons.
+Player 2, make your selection of your 3 pokemons.
 
-La lucha entre Jugador1 y Jugador2 comienza.
+NOW WE'RE GOING TO SEE THE FIGHT, Player 1 vs Player 2.
 
-¿Qué quieres hacer?
+What do you want to do?
 1. Luchar
 2. Mochila
 3. Pokémon
