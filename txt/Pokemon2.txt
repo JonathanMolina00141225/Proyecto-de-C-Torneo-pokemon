@@ -1,60 +1,421 @@
 1. Butterfree
+Vida del Pokémon: 323
+Ataque 1: Tornado
+Daño: 45 | PP: 15
+
+Ataque 2: String shot
+Daño: 100 | PP: 30
+
+Ataque 3: Poison powder
+Daño: 30 | PP: 25
+
+Ataque 4: Psybeam
+Daño: 65 | PP: 20
 
 2.Beedril
+Vida del Pokémon: 333
+Ataque 1: Pin missile
+Daño: 45 | PP: 15
+
+Ataque 2: String shot
+Daño: 100 | PP: 30
+
+Ataque 3: Poison sting
+Daño: 30 | PP: 25
+
+Ataque 4: Picotazo
+Daño: 75 | PP: 25
 
 3.Fearow
+Vida del Pokémon: 333
+Ataque 1: Ataque furia
+Daño: 35 | PP: 10
+
+Ataque 2: Ataque ala
+Daño: 100 | PP: 35
+
+Ataque 3: Pico taladro
+Daño: 80 | PP: 25
+
+Ataque 4: Derribo
+Daño: 90 | PP: 30
 
 4.Sandslash
+Vida del Pokémon: 353
+Ataque 1: Terremoto
+Daño: 120 | PP: 45
+
+Ataque 2: Excavar
+Daño: 80 | PP: 30
+
+Ataque 3: Danza espada
+Daño: | PP: 20
+
+Ataque 4: Arañazo
+Daño: 40 | PP: 10
 
 5.Clefable
+Vida del Pokémon: 393
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 6.Ninetales
+Vida del Pokémon: 349
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
+
 
 7.Wigglytuff
+Vida del Pokémon: 483
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 8.Golbat
+Vida del Pokémon: 353
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 9.Vileplume
+Vida del Pokémon: 353
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 10. Dugtrio
+Vida del Pokémon: 273
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 11.Persian
+Vida del Pokémon: 333
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 12. Golduck
+Vida del Pokémon: 363
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 13.Primeape
+Vida del Pokémon: 333
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 14.Poliwrath
+Vida del Pokémon: 383
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 15.Victreebel
+Vida del Pokémon: 363
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 16.Tentacruel
+Vida del Pokémon: 363
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 17.Magneton
+Vida del Pokémon: 303
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 18.Dodrio
+Vida del Pokémon: 323
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 19.Hypno
+Vida del Pokémon: 373
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 20.Marowak
+Vida del Pokémon: 323
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 21.Weezing
+Vida del Pokémon: 333
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 22.Mr.Mime
+Vida del Pokémon: 283
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 23.Porygon
+Vida del Pokémon:333
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 24.Jynx
+Vida del Pokémon: 333
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 25.Seadra
+Vida del Pokémon: 313
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 26.Seaking
+Vida del Pokémon: 363
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 27.Farfetch´d
+Vida del Pokémon: 307
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 28.Venomoth
+Vida del Pokémon: 343
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
 29.Dewgong
+Vida del Pokémon:383
+Ataque 1: 
+Daño: | PP:
 
-30.Onyx
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
+
+30.Onix
+Vida del Pokémon: 273
+Ataque 1: 
+Daño: | PP:
+
+Ataque 2: 
+Daño: | PP:
+
+Ataque 3: 
+Daño: | PP: 
+
+Ataque 4: 
+Daño:  | PP: 
 
