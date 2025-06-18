@@ -4,7 +4,7 @@ Player 2, make your selection of your 3 pokemons.
 NOW WE'RE GOING TO SEE THE FIGHT, Player 1 vs Player 2.
 
 What do you want to do?
-1. Luchar
-2. Mochila
-3. Pokémon
-4. Huir
+1. Fight.
+2. Backpack.
+3. Pokemon.
+4. Run away.
