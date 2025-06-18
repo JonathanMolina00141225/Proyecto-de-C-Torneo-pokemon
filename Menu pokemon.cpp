@@ -1,5 +1,36 @@
 #include <iostream>
+#include <fstream>
+
 using namespace std;
+
+void PvPmatch(){
+    ifstream archivo("pvp.txt");
+
+    if (archivo.is_open())
+    {
+        cout<<endl;
+        while (archivo >> e.PvP)
+        {
+            cout << e.PvP << endl;
+        }
+        archivo.close();
+        cout<<"..."<< endl;
+
+    }else
+    {
+        cout<<"Error al abrir el archivo"<< endl;
+    }
+}
+
+void PvEmatch(){
+    ifstream archivo("pve2.txt");
+
+    if (archivo.is_open())
+    {
+        cout<<endl;
+    }
+    
+}
 
 int main(){
     int menu;
