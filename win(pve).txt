@@ -1,8 +1,8 @@
-GANASTE
-Avanzas a la siguiente ronda.
+YOU WON
+You advance to the next round.
 
-¿Qué quieres hacer?
-1. Luchar
-2. Mochila
+What do you want to do?
+1. Battle
+2. Backpack
 3. Pokémon
-4. Huir
+4. Run away
