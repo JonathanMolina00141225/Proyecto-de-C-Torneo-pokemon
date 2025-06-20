@@ -1,0 +1,359 @@
+Venusaur
+Vida: 363
+Puntos: 50
+Ataque1: Razor Leaf,55,25
+Ataque2: Vine Whip,45,25
+Ataque3: Body Slam,85,15
+Ataque4: Giga Drain,60,5
+
+Charizard
+Vida: 360
+Puntos: 50
+Ataque1: Lanzallamas,90,15
+Ataque2: Tajo aéreo,75,15
+Ataque3: Arañazo,40,35
+Ataque4: Aire afilado,60,25
+
+Blastoise
+Vida: 362
+Puntos: 50
+Ataque1: Hidrobomba,110,5
+Ataque2: Pistola de agua,40,25
+Ataque3: Bite,60,25
+Ataque4: Placaje,100,35
+
+Pidgeot
+Vida: 369
+Puntos: 50
+Ataque1: Wing Attack,60,35
+Ataque2: Quick Attack,40,30
+Ataque3: Tackle,40,35
+Ataque4: Aerial Ace,60,20
+
+Pikachu
+Vida: 273
+Puntos: 50
+Ataque1: Thunderbolt,90,15
+Ataque2: Quick Attack,40,30
+Ataque3: Slam,80,20
+Ataque4: Shock Wave,60,20
+
+Nidoqueen
+Vida: 343
+Puntos: 50
+Ataque1: Earthquake,100,10
+Ataque2: Ice Beam,90,10
+Ataque3: Body Slam,85,15
+Ataque4: Surf,90,15
+
+Nidoking
+Vida: 325
+Puntos: 50
+Ataque1: Earthquake,100,10
+Ataque2: Sludge Bomb,90,10
+Ataque3: Megahorn,120,10
+Ataque4: Thunderbolt,90,15
+
+Parasect
+Vida: 323
+Puntos: 50
+Ataque1: Slash,70,20
+Ataque2: X-Scissor,80,15
+Ataque3: Seed Bomb,80,15
+Ataque4: Scratch,40,35
+
+Arcanine
+Vida: 383
+Puntos: 50
+Ataque1: Flamethrower,90,15
+Ataque2: Extreme Speed,80,5
+Ataque3: Bite,60,25
+Ataque4: N/A,0,0
+
+Alakazam
+Vida: 313
+Puntos: 50
+Ataque1: Psychic,90,10
+Ataque2: Psybeam,65,20
+Ataque3: Confusion,50,25
+Ataque4: Signal Beam,75,15
+
+Machamp
+Vida: 383
+Puntos: 50
+Ataque1: Cross Chop,100,5
+Ataque2: Karate Chop,50,25
+Ataque3: Brick Break,75,15
+Ataque4: Vital Throw,70,10
+
+Golem
+Vida: 363
+Puntos: 50
+Ataque1: Earthquake,100,10
+Ataque2: Rock Slide,75,10
+Ataque3: Tackle,35,35
+Ataque4: Double-Edge,120,15
+
+Rapidash
+Vida: 333
+Puntos: 50
+Ataque1: Flamethrower,90,15
+Ataque2: Stomp,65,20
+Ataque3: Fire Spin,35,15
+Ataque4: Horn Attack,65,25
+
+Slowbro
+Vida: 393
+Puntos: 50
+Ataque1: Psychic,90,10
+Ataque2: Surf,90,15
+Ataque3: Ice Beam,90,10
+Ataque4: Body Slam,85,15
+
+Cloyster
+Vida: 303
+Puntos: 50
+Ataque1: Ice Shard,40,30
+Ataque2: Icicle Spear,50,10
+Ataque3: Water Pulse,60,20
+Ataque4: Rock Blast,50,10
+
+Gengar
+Vida: 323
+Puntos: 50
+Ataque1: Shadow Ball,80,15
+Ataque2: Lick,20,30
+Ataque3: Dark Pulse,80,15
+Ataque4: Psychic,90,10
+
+Kingler
+Vida: 313
+Puntos: 50
+Ataque1: Crabhammer,90,10
+Ataque2: Vice Grip,55,30
+Ataque3: Slash,70,20
+Ataque4: Stomp,65,20
+
+Electrode
+Vida: 323
+Puntos: 50
+Ataque1: Thunderbolt,90,15
+Ataque2: Explosion,250,5
+Ataque3: Swift,60,20
+Ataque4: Tackle,40,35
+
+Exeggutor
+Vida: 393
+Puntos: 50
+Ataque1: Psychic,90,10
+Ataque2: Seed Bomb,80,15
+Ataque3: Body Slam,85,15
+Ataque4: Stomp,65,20
+
+Hitmonlee
+Vida: 303
+Puntos: 50
+Ataque1: High Jump Kick,130,10
+Ataque2: Brick Break,75,15
+Ataque3: Rolling Kick,60,15
+Ataque4: Double Kick,60,30
+
+Hitmonchan
+Vida: 303
+Puntos: 50
+Ataque1: Fire Punch,75,15
+Ataque2: Ice Punch,75,15
+Ataque3: Thunder Punch,75,15
+Ataque4: Mach Punch,40,30
+
+Rhydon
+Vida: 413
+Puntos: 50
+Ataque1: Earthquake,100,10
+Ataque2: Rock Slide,75,10
+Ataque3: Horn Attack,65,25
+Ataque4: Double-Edge,120,15
+
+Kangaskhan
+Vida: 413
+Puntos: 50
+Ataque1: Dizzy Punch,70,10
+Ataque2: Crunch,80,15
+Ataque3: Stomp,65,20
+Ataque4: Brick Break,75,15
+
+Starmie
+Vida: 323
+Puntos: 50
+Ataque1: Psychic,90,10
+Ataque2: Surf,90,15
+Ataque3: Thunderbolt,90,15
+Ataque4: Rapid Spin,50,40
+
+Scyther
+Vida: 343
+Puntos: 50
+Ataque1: Wing Attack,60,35
+Ataque2: Slash,70,20
+Ataque3: X-Scissor,80,15
+Ataque4: Fury Cutter,40,20
+
+Electabuzz
+Vida: 333
+Puntos: 50
+Ataque1: Thunderbolt,90,15
+Ataque2: Thunder Punch,75,15
+Ataque3: Swift,60,20
+Ataque4: Low Kick,60,25
+
+Magmar
+Vida: 333
+Puntos: 50
+Ataque1: Flamethrower,90,15
+Ataque2: Fire Punch,75,15
+Ataque3: Ember,40,25
+Ataque4: Brick Break,75,15
+
+Pinsir
+Vida: 333
+Puntos: 50
+Ataque1: X-Scissor,80,15
+Ataque2: Vice Grip,55,30
+Ataque3: Seismic Toss,60(fijo),20
+Ataque4: Rock Slide,75,10
+
+Tauros
+Vida: 353
+Puntos: 50
+Ataque1: Body Slam,85,15
+Ataque2: Hyper Beam,150,5
+Ataque3: Earthquake,100,10
+Ataque4: Horn Attack,65,25
+
+Gyarados
+Vida: 393
+Puntos: 50
+Ataque1: Waterfall,80,15
+Ataque2: Bite,60,25
+Ataque3: Crunch,80,15
+Ataque4: Earthquake,100,10
+
+Lapras
+Vida: 463
+Puntos: 50
+Ataque1: Ice Beam,90,10
+Ataque2: Surf,90,15
+Ataque3: Body Slam,85,15
+Ataque4: Water Gun,40,25
+
+Ditto
+Vida: 299
+Puntos: 50
+Ataque1: Pound,40,35
+Ataque2: Tackle,40,35
+Ataque3: Scratch,40,35
+Ataque4: Pound,40,35
+
+Vaporeon
+Vida: 463
+Puntos: 50
+Ataque1: Surf,90,15
+Ataque2: Ice Beam,90,10
+Ataque3: Aurora Beam,65,20
+Ataque4: Bite,60,25
+
+Jolteon
+Vida: 333
+Puntos: 50
+Ataque1: Thunderbolt,90,15
+Ataque2: Double Kick,30x2,30
+Ataque3: Swift,60,20
+Ataque4: Shock Wave,60,20
+
+Flareon
+Vida: 333
+Puntos: 50
+Ataque1: Flamethrower,90,15
+Ataque2: Bite,60,25
+Ataque3: Ember,40,25
+Ataque4: Strength,80,15
+
+Omastar
+Vida: 343
+Puntos: 50
+Ataque1: Ancient Power,60,5
+Ataque2: Surf,90,15
+Ataque3: Ice Beam,90,10
+Ataque4: Earth Power,90,10
+
+Kabutops
+Vida: 323
+Puntos: 50
+Ataque1: Rock Slide,75,10
+Ataque2: Slash,70,20
+Ataque3: Waterfall,80,15
+Ataque4: |Aqua Jet,40,20
+
+Aerodactyl
+Vida: 363
+Puntos: 50
+Ataque1: Rock Slide,75,10
+Ataque2: Wing Attack,60,35
+Ataque3: Hyper Beam,150,5
+Ataque4: Bite,60,25
+
+Snorlax
+Vida: 523
+Puntos: 50
+Ataque1: Body Slam,85,15
+Ataque2: Hyper Beam,150,5
+Ataque3: Earthquake,100,10
+Ataque4: Headbutt,70,15
+
+Articuno
+Vida: 383
+Puntos: 50
+Ataque1: Ice Beam,90,10
+Ataque2: Hurricane,110,10
+Ataque3: Drill Peck,80,20
+Ataque4: Quick Attack,40,30
+
+Zapdos
+Vida: 383
+Puntos: 50
+Ataque1: Thunderbolt,90,15
+Ataque2: Drill Peck,80,20
+Ataque3: Quick Attack,40,30
+Ataque4: Heat Wave,95,10
+
+Moltres
+Vida: 383
+Puntos: 50
+Ataque1: Flamethrower,90,15
+Ataque2: Sky Attack,140,5
+Ataque3: Heat Wave,95,10
+Ataque4: Wing Attack,60,35
+
+Dragonite
+Vida: 385
+Puntos: 50
+Ataque1: Dragon Claw,80,15
+Ataque2: Wing Attack,60,35
+Ataque3: Thunder Punch,75,15
+Ataque4: Ice Punch,75,15
+
+Mewtwo
+Vida: 415
+Puntos: 50
+Ataque1: Psychic,90,10
+Ataque2: Shadow Ball,80,15
+Ataque3: Aura Sphere,80,20
+Ataque4: Thunderbolt,90,15
+
+Mew
+Vida: 403
+Puntos: 50
+Ataque1: Psychics,90,10
+Ataque2: Shadow Ball,80,15
+Ataque3: Flamethrower,90,15
+Ataque4: Hyper Beam,150,5
