@@ -59,7 +59,35 @@ Daño: 40 | PP: 35
 Ataque 4: Aerial Ace
 Daño: 60 | PP: 20
 
-5. Pikachu
+5. Butterfree
+Vida del Pokémon: 323
+Ataque 1: Tornado
+Daño: 45 | PP: 15
+
+Ataque 2: String shot
+Daño: 100 | PP: 30
+
+Ataque 3: Poison powder
+Daño: 30 | PP: 25
+
+Ataque 4: Psybeam
+Daño: 65 | PP: 20
+
+6.Beedril
+Vida del Pokémon: 333
+Ataque 1: Pin missile
+Daño: 45 | PP: 15
+
+Ataque 2: String shot
+Daño: 100 | PP: 30
+
+Ataque 3: Poison sting
+Daño: 30 | PP: 25
+
+Ataque 4: Picotazo
+Daño: 75 | PP: 25
+
+7. Pikachu
 Vida del Pokémon: 273
 
 Ataque 1: Thunderbolt
@@ -74,7 +102,7 @@ Daño: 80 | PP: 20
 Ataque 4: Shock Wave
 Daño: 60 | PP: 20
 
-6. Nidoqueen
+8. Nidoqueen
 Vida del Pokémon: 343
 
 Ataque 1: Earthquake
@@ -89,7 +117,7 @@ Daño: 85 | PP: 15
 Ataque 4: Surf
 Daño: 90 | PP: 15
 
-7. Nidoking
+9. Nidoking
 Vida del Pokémon: 325
 
 Ataque 1: Earthquake
@@ -104,7 +132,35 @@ Daño: 120 | PP: 10
 Ataque 4: Thunderbolt
 Daño: 90 | PP: 15
 
-8. Parasect
+10.Fearow
+Vida del Pokémon: 333
+Ataque 1: Ataque furia
+Daño: 35 | PP: 10
+
+Ataque 2: Ataque ala
+Daño: 100 | PP: 35
+
+Ataque 3: Pico taladro
+Daño: 80 | PP: 25
+
+Ataque 4: Derribo
+Daño: 90 | PP: 30
+
+11.Sandslash
+Vida del Pokémon: 353
+Ataque 1: Terremoto
+Daño: 120 | PP: 45
+
+Ataque 2: Excavar
+Daño: 80 | PP: 30
+
+Ataque 3: Danza espada
+Daño: | PP: 20
+
+Ataque 4: Arañazo
+Daño: 40 | PP: 10
+
+12. Parasect
 Vida del Pokémon: 323
 
 
@@ -123,7 +179,7 @@ Daño: 80 | PP: 15
 Ataque 4: Scratch
 Daño: 40 | PP: 35
 
-9. Arcanine
+13. Arcanine
 Vida del Pokémon: 383
 
 Ataque 1: Flamethrower
@@ -135,7 +191,7 @@ Daño: 80 | PP: 5
 Ataque 3: Bite
 Daño: 60 | PP: 25
 
-10. Alakazam
+14. Alakazam
 Vida del Pokémon: 313
 
 Ataque 1: Psychic
@@ -150,7 +206,7 @@ Daño: 50 | PP: 25
 Ataque 4: Signal Beam
 Daño: 75 | PP: 15
 
-11. Machamp
+15. Machamp
 Vida del Pokémon: 383
 
 Ataque 1: Cross Chop
@@ -165,7 +221,81 @@ Daño: 75 | PP: 15
 Ataque 4: Vital Throw
 Daño: 70 | PP: 10
 
-12. Golem
+16. Clefable
+Vida del Pokémon: 393
+
+Ataque 1: Moonblast
+Daño: 95 | PP: 15
+
+Ataque 2: Meteor Mash
+Daño: 90 | PP: 10
+
+Ataque 3: Thunder Wave
+Daño: — (Paralizar) | PP: 20
+
+Ataque 4: Soft-Boiled
+Daño: — (Cura 50%) | PP: 10
+
+17. Ninetales
+Vida del Pokémon: 349
+
+Ataque 1: Flamethrower
+Daño: 90 | PP: 15
+
+Ataque 2: Fire Blast
+Daño: 110 | PP: 5
+
+Ataque 3: Will-O-Wisp
+Daño: — (Quemar) | PP: 15
+
+Ataque 4: Energy Ball
+Daño: 90 | PP: 10
+
+18. Wigglytuff
+Vida del Pokémon: 483
+
+Ataque 1: Hyper Voice
+Daño: 90 | PP: 10
+
+Ataque 2: Play Rough
+Daño: 90 | PP: 10
+
+Ataque 3: Thunderbolt
+Daño: 90 | PP: 15
+
+Ataque 4: Sing
+Daño: 40 | PP: 15
+
+19. Golbat
+Vida del Pokémon: 353
+Ataque 1: Poison Fang
+Daño: 50 | PP: 15
+
+Ataque 2: Wing Attack
+Daño: 60 | PP: 35
+
+Ataque 3: Leech Life
+Daño: 80 | PP: 10
+
+Ataque 4: Confuse Ray
+Daño: — (Paralizar) | PP: 10
+
+20. Vileplume
+Vida del Pokémon: 353
+
+Ataque 1: Petal Dance
+Daño: 120 | PP: 10
+
+Ataque 2: Sludge Bomb
+Daño: 90 | PP: 10
+
+Ataque 3: Solar Beam
+Daño: 120 | PP: 10
+
+Ataque 4: Sleep Powder
+Daño: — (paralizar) | PP: 15
+
+21. Golem
 Vida del Pokémon: 363
 
 Ataque 1: Earthquake
@@ -180,7 +310,7 @@ Daño: 35 | PP: 35
 Ataque 4: Double-Edge
 Daño: 120 | PP: 15
 
-13. Rapidash
+22. Rapidash
 Vida del Pokémon: 333
 
 Ataque 1: Flamethrower
@@ -195,7 +325,7 @@ Daño: 35 | PP: 15
 Ataque 4: Horn Attack
 Daño: 65 | PP: 25
 
-14. Slowbro
+23. Slowbro
 Vida del Pokémon: 393
 
 Ataque 1: Psychic
@@ -210,7 +340,7 @@ Daño: 90 | PP: 10
 Ataque 4: Body Slam
 Daño: 85 | PP: 15
 
-15. Cloyster
+24. Cloyster
 Vida del Pokémon: 303
 
 Ataque 1: Ice Shard
@@ -225,7 +355,7 @@ Daño: 60 | PP: 20
 Ataque 4: Rock Blast
 Daño: 50 | PP: 10
 
-16. Gengar
+25. Gengar
 Vida del Pokémon: 323
 
 Ataque 1: Shadow Ball
@@ -240,7 +370,7 @@ Daño: 80 | PP: 15
 Ataque 4: Psychic
 Daño: 90 | PP: 10
 
-17. Kingler
+26. Kingler
 Vida del Pokémon: 313
 
 Ataque 1: Crabhammer
@@ -255,7 +385,82 @@ Daño: 70 | PP: 20
 Ataque 4: Stomp
 Daño: 65 | PP: 20
 
-18. Electrode
+27. Dugtrio
+Vida del Pokémon: 273
+
+Ataque 1: Earthquake
+Daño: 100 | PP: 10
+
+Ataque 2: Rock Slide
+Daño: 75 | PP: 10
+
+Ataque 3: Sucker Punch
+Daño: 70 | PP: 5
+
+Ataque 4: Sand Attack
+Daño: — (bajar defensa) | PP: 15
+
+28. Venomoth
+Vida del Pokémon: 343
+
+Ataque 1: Bug Buzz
+Daño: 90 | PP: 10
+
+Ataque 2: Psychic
+Daño: 90 | PP: 10
+
+Ataque 3: Sleep Powder
+Daño: — (Paralizar) | PP: 15
+
+Ataque 4: Quiver Dance
+Daño: — (Aumenta ataque, defensa y velocidad) | PP: 25
+
+29. Persian
+Vida del Pokémon: 333
+
+Ataque 1: Slash
+Daño: 70 | PP: 20
+
+Ataque 2: Power Gem
+Daño: 80 | PP: 20
+
+Ataque 3: Fake Out
+Daño: 40 | PP: 10
+
+Ataque 4: Taunt
+Daño: — (bajar ataque) | PP: 20
+
+30. Golduck
+Vida del Pokémon: 363
+
+Ataque 1: Hydro Pump
+Daño: 110 | PP: 5
+
+Ataque 2: Psychic
+Daño: 90 | PP: 10
+
+Ataque 3: Ice Beam
+Daño: 90 | PP: 10
+
+Ataque 4: Confuse Ray
+Daño: — (paralizar) | PP: 10
+
+31. Primeape
+Vida del Pokémon: 333
+
+Ataque 1: Close Combat
+Daño: 120 | PP: 5
+
+Ataque 2: Earthquake
+Daño: 100 | PP: 10
+
+Ataque 3: Rock Slide
+Daño: 75 | PP: 10
+
+Ataque 4: U-turn
+Daño: 70 | PP: 20
+
+32. Electrode
 Vida del Pokémon: 323
 
 
@@ -274,7 +479,7 @@ Daño: 60 | PP: 20
 Ataque 4: Tackle
 Daño: 40 | PP: 35
 
-19. Exeggutor
+33. Exeggutor
 Vida del Pokémon: 393
 
 Ataque 1: Psychic
@@ -289,7 +494,7 @@ Daño: 85 | PP: 15
 Ataque 4: Stomp
 Daño: 65 | PP: 20
 
-20. Hitmonlee
+34. Hitmonlee
 Vida del Pokémon: 303
 
 Ataque 1: High Jump Kick
@@ -304,7 +509,7 @@ Daño: 60 | PP: 15
 Ataque 4: Double Kick
 Daño: 60 | PP: 30
 
-21. Hitmonchan
+35. Hitmonchan
 Vida del Pokémon: 303
 
 Ataque 1: Fire Punch
@@ -319,7 +524,7 @@ Daño: 75 | PP: 15
 Ataque 4: Mach Punch
 Daño: 40 | PP: 30
 
-22. Rhydon
+36. Rhydon
 Vida del Pokémon: 413
 
 Ataque 1: Earthquake
@@ -334,7 +539,22 @@ Daño: 65 | PP: 25
 Ataque 4: Double-Edge
 Daño: 120 | PP: 15
 
-23. Kangaskhan
+37. Poliwrath
+Vida del Pokémon: 383
+
+Ataque 1: Dynamic Punch
+Daño: 100 | PP: 5
+
+Ataque 2: Waterfall
+Daño: 80 | PP: 15
+
+Ataque 3: Ice Punch
+Daño: 75 | PP: 15
+
+Ataque 4: Bulk Up
+Daño: — (Aumenta Ataque y Defensa) | PP: 20
+
+38. Kangaskhan
 Vida del Pokémon: 413
 
 Ataque 1: Dizzy Punch
@@ -349,7 +569,7 @@ Daño: 65 | PP: 20
 Ataque 4: Brick Break
 Daño: 75 | PP: 15
 
-24. Starmie
+39. Starmie
 Vida del Pokémon: 323
 
 Ataque 1: Psychic
@@ -364,7 +584,7 @@ Daño: 90 | PP: 15
 Ataque 4: Rapid Spin
 Daño: 50 | PP: 40
 
-25. Scyther
+40. Scyther
 Vida del Pokémon: 343
 
 Ataque 1: Wing Attack
@@ -379,7 +599,37 @@ Daño: 80 | PP: 15
 Ataque 4: Fury Cutter
 Daño: 40 | PP: 20
 
-26. Electabuzz
+41. Victreebel
+Vida del Pokémon: 363
+
+Ataque 1: Leaf Blade
+Daño: 90 | PP: 15
+
+Ataque 2: Sludge Bomb
+Daño: 90 | PP: 10
+
+Ataque 3: Solar Beam
+Daño: 120 | PP: 10
+
+Ataque 4: Sleep Powder
+Daño: — (paralizar) | PP: 15
+
+42. Tentacruel
+Vida del Pokémon: 363
+
+Ataque 1: Surf
+Daño: 90 | PP: 15
+
+Ataque 2: Sludge Wave
+Daño: 95 | PP: 10
+
+Ataque 3: Barrier
+Daño: — (Aumenta Defensa x2) | PP: 20
+
+Ataque 4: Poison Jab
+Daño: 80 | PP: 20
+
+43. Electabuzz
 Vida del Pokémon: 333
 
 Ataque 1: Thunderbolt
@@ -394,7 +644,7 @@ Daño: 60 | PP: 20
 Ataque 4: Low Kick
 Daño: 60 | PP: 25
 
-27. Magmar
+44. Magmar
 Vida del Pokémon: 333
 
 Ataque 1: Flamethrower
@@ -409,7 +659,7 @@ Daño: 40 | PP: 25
 Ataque 4: Brick Break
 Daño: 75 | PP: 15
 
-28. Pinsir
+45. Pinsir
 Vida del Pokémon: 333
 
 Ataque 1: X-Scissor
@@ -424,7 +674,7 @@ Daño: 60 (fijo) | PP: 20
 Ataque 4: Rock Slide
 Daño: 75 | PP: 10
 
-29. Tauros
+46. Tauros
 Vida del Pokémon: 353
 
 Ataque 1: Body Slam
@@ -439,7 +689,7 @@ Daño: 100 | PP: 10
 Ataque 4: Horn Attack
 Daño: 65 | PP: 25
 
-30. Gyarados
+47. Gyarados
 Vida del Pokémon: 393
 
 Ataque 1: Waterfall
@@ -454,7 +704,37 @@ Daño: 80 | PP: 15
 Ataque 4: Earthquake
 Daño: 100 | PP: 10
 
-31. Lapras
+48. Magneton
+Vida del Pokémon: 303
+
+Ataque 1: Thunderbolt
+Daño: 90 | PP: 15
+
+Ataque 2: Flash Cannon
+Daño: 80 | PP: 10
+
+Ataque 3: Tri Attack
+Daño: 80 | PP: 10
+
+Ataque 4: Thunder Wave
+Daño: — (Paralizar) | PP: 20
+
+49. Dodrio
+Vida del Pokémon: 323
+
+Ataque 1: Drill Peck
+Daño: 80 | PP: 20
+
+Ataque 2: Jump Kick
+Daño: 100 | PP: 10
+
+Ataque 3: Body Slam
+Daño: 85 | PP: 15
+
+Ataque 4: Roost
+Daño: — (Cura 50%) | PP: 10
+
+50. Lapras
 Vida del Pokémon: 463
 
 Ataque 1: Ice Beam
@@ -469,7 +749,22 @@ Daño: 85 | PP: 15
 Ataque 4: Water Gun
 Daño: 40 | PP: 25
 
-32. Ditto
+51. Farfetch’d
+Vida del Pokémon: 307
+
+Ataque 1: Brave Bird
+Daño: 120 | PP: 15
+
+Ataque 2: Leaf Blade
+Daño: 90 | PP: 15
+
+Ataque 3: Knock Off
+Daño: 65 | PP: 20
+
+Ataque 4: Swords Dance
+Daño: — (Aumenta Ataque x2) | PP: 20
+
+52. Ditto
 Vida del Pokémon: 299
 
 Ataque 1: Pound
@@ -484,7 +779,22 @@ Daño: 40 | PP: 35
 Ataque 4: Pound
 Daño: 40 | PP: 35
 
-33. Vaporeon
+53. Dewgong
+Vida del Pokémon: 383
+
+Ataque 1: Ice Beam
+Daño: 90 | PP: 10
+
+Ataque 2: Surf
+Daño: 90 | PP: 15
+
+Ataque 3: Rest
+Daño: — (Cura al 100%) | PP: 10
+
+Ataque 4: Sheer Cold
+Daño: - (congelamiento) | PP: 5
+
+54. Vaporeon
 Vida del Pokémon: 463
 
 Ataque 1: Surf
@@ -499,7 +809,7 @@ Daño: 65 | PP: 20
 Ataque 4: Bite
 Daño: 60 | PP: 25
 
-34. Jolteon
+55. Jolteon
 Vida del Pokémon: 333
 
 Ataque 1: Thunderbolt
@@ -514,7 +824,7 @@ Daño: 60 | PP: 20
 Ataque 4: Shock Wave
 Daño: 60 | PP: 20
 
-35. Flareon
+56. Flareon
 Vida del Pokémon: 333
 
 Ataque 1: Flamethrower
@@ -529,7 +839,7 @@ Daño: 40 | PP: 25
 Ataque 4: Strength
 Daño: 80 | PP: 15
 
-36. Omastar
+57. Omastar
 Vida del Pokémon: 343
 
 Ataque 1: Ancient Power
@@ -544,7 +854,37 @@ Daño: 90 | PP: 10
 Ataque 4: Earth Power
 Daño: 90 | PP: 10
 
-37. Kabutops
+58. Hypno
+Vida del Pokémon: 373
+
+Ataque 1: Psychic
+Daño: 90 | PP: 10
+
+Ataque 2: Shadow Ball
+Daño: 80 | PP: 15
+
+Ataque 3: Hypnosis
+Daño: — (Paralizar) | PP: 20
+
+Ataque 4: Dream Eater
+Daño: 100 | PP: 15
+
+59. Onix
+Vida del Pokémon: 273
+
+Ataque 1: Earthquake
+Daño: 100 | PP: 10
+
+Ataque 2: Rock Slide
+Daño: 75 | PP: 10
+
+Ataque 3: Iron Tail
+Daño: 100 | PP: 15
+
+Ataque 4: Sandstorm
+Daño: — (baja la velocidad) | PP: 10
+
+60. Kabutops
 Vida del Pokémon: 323
 
 Ataque 1: Rock Slide
@@ -559,7 +899,7 @@ Daño: 80 | PP: 15
 Ataque 4: |Aqua Jet
 Daño: 40 | PP: 20
 
-38. Aerodactyl
+61. Aerodactyl
 Vida del Pokémon: 363
 
 Ataque 1: Rock Slide
@@ -574,7 +914,7 @@ Daño: 150 | PP: 5
 Ataque 4: Bite
 Daño: 60 | PP: 25
 
-39. Snorlax
+62. Snorlax
 Vida del Pokémon: 523
 
 Ataque 1: Body Slam
@@ -589,7 +929,7 @@ Daño: 100 | PP: 10
 Ataque 4: Headbutt
 Daño: 70 | PP: 15
 
-40. Articuno
+63. Articuno
 Vida del Pokémon: 383
 
 Ataque 1: Ice Beam
@@ -604,7 +944,7 @@ Daño: 80 | PP: 20
 Ataque 4: Quick Attack
 Daño: 40 | PP: 30
 
-41. Zapdos
+64. Zapdos
 Vida del Pokémon: 383
 
 Ataque 1: Thunderbolt
@@ -619,7 +959,7 @@ Daño: 40 | PP: 30
 Ataque 4: Heat Wave
 Daño: 95 | PP: 10
 
-42. Moltres
+65. Moltres
 Vida del Pokémon: 383
 
 Ataque 1: Flamethrower
@@ -634,7 +974,22 @@ Daño: 95 | PP: 10
 Ataque 4: Wing Attack
 Daño: 60 | PP: 35
 
-43. Dragonite
+66. Marowak
+Vida del Pokémon: 323
+
+Ataque 1: Bonemerang
+Daño: 50 | PP: 10
+
+Ataque 2: Fire Punch
+Daño: 75 | PP: 15
+
+Ataque 3: Thunder Punch
+Daño: 75 | PP: 15
+
+Ataque 4: Swords Dance
+Daño: — (Aumenta Ataque x2) | PP: 20
+
+67. Dragonite
 Vida del Pokémon: 385
 
 Ataque 1: Dragon Claw
@@ -649,7 +1004,97 @@ Daño: 75 | PP: 15
 Ataque 4: Ice Punch
 Daño: 75 | PP: 15
 
-44. Mewtwo
+68. Weezing
+Vida del Pokémon: 333
+
+Ataque 1: Sludge Bomb
+Daño: 90 | PP: 10
+
+Ataque 2: Flamethrower
+Daño: 90 | PP: 15
+
+Ataque 3: Thunderbolt
+Daño: 90 | PP: 15
+
+Ataque 4: Toxic
+Daño: — (Envenenar grave) | PP: 10
+
+69. Seadra
+Vida del Pokémon: 313
+
+Ataque 1: Hydro Pump
+Daño: 110 | PP: 5
+
+Ataque 2: Dragon Pulse
+Daño: 85 | PP: 10
+
+Ataque 3: Ice Beam
+Daño: 90 | PP: 10
+
+Ataque 4: Agility
+Daño: — (Aumenta Velocidad x2) | PP: 30
+
+70. Seaking
+Vida del Pokémon: 363
+
+Ataque 1: Waterfall
+Daño: 80 | PP: 15
+
+Ataque 2: Megahorn
+Daño: 120 | PP: 10
+
+Ataque 3: Poison Jab
+Daño: 80 | PP: 20
+
+Ataque 4: Drill Run
+Daño: 80 | PP: 10
+
+71. Mr. Mime
+Vida del Pokémon: 283
+
+Ataque 1: Psychic
+Daño: 90 | PP: 10
+
+Ataque 2: Dazzling Gleam
+Daño: 80 | PP: 10
+
+Ataque 3: Thunder Wave
+Daño: — (Paralizar) | PP: 20
+
+Ataque 4: Light Screen
+Daño: — (Reduce ataque) | PP: 30
+
+72. Jynx
+Vida del Pokémon: 333
+
+Ataque 1: Ice Beam
+Daño: 90 | PP: 10
+
+Ataque 2: Psychic
+Daño: 90 | PP: 10
+
+Ataque 3: Lovely Kiss
+Daño: — (Paralizar) | PP: 10
+
+Ataque 4: Focus Blast
+Daño: 120 | PP: 5
+
+73. Porygon
+Vida del Pokémon: 333
+
+Ataque 1: Tri Attack
+Daño: 80 | PP: 10
+
+Ataque 2: Thunderbolt
+Daño: 90 | PP: 15
+
+Ataque 3: Ice Beam
+Daño: 90 | PP: 10
+
+Ataque 4: Recover
+Daño: — (Cura 50%) | PP: 10
+
+74. Mewtwo
 Vida del Pokémon: 415
 
 Ataque 1: Psychic
@@ -664,7 +1109,7 @@ Daño: 80 | PP: 20
 Ataque 4: Thunderbolt
 Daño: 90 | PP: 15
 
-45. Mew
+75. Mew
 Vida del Pokémon: 403
 
 Ataque 1: Psychics
