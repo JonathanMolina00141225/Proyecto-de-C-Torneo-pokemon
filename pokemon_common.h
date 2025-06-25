@@ -17,12 +17,17 @@ struct Ataque {
     int pp;
 };
 
+enum EfectoEstado { NINGUNO, QUEMADURA, VENENO };
+
 struct Pokemon {
     string nombre;
     int vida;
     int puntos;
     Ataque ataques[4];
     bool vivo = true;
+
+    EfectoEstado efecto = NINGUNO;
+    int rondasConEfecto = 0;
 };
 
 vector<Pokemon> leerPokemons(const string& archivoNombre) {

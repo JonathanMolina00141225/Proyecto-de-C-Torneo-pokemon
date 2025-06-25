@@ -5,6 +5,10 @@
 #include <cstdlib>
 #include <ctime>
 #include <limits>
+#include <iostream>
+#include <vector>
+
+void aplicarEfectos(Pokemon& p);
 
 Pokemon seleccionarPokemonUsuario(vector<Pokemon>& pokemons) {
     cout << "\nSelecciona tu Pokemon:\n";

@@ -4,6 +4,8 @@
 #include "pokemon_common.h"
 #include <limits>
 
+void aplicarEfectos(Pokemon& p);
+
 Pokemon seleccionarPokemon(vector<Pokemon>& pokemons) {
     cout << "\nSelecciona tu Pokemon:\n";
     for (size_t i = 0; i < pokemons.size(); ++i) {

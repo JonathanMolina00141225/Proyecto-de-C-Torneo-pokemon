@@ -3,6 +3,9 @@
 using namespace std;
 
 int menuPvP(){
+
+    int PvPmenu;
+    
     do
 {
     cout<<"NOW WE'RE GOING TO SEE THE FIGHT, Player 1 vs Player 2 \n";

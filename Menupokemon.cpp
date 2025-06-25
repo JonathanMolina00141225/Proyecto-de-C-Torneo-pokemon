@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void PvPmatch(){
+/*void PvPmatch(){
     ifstream archivo("pvp.txt");
 
     if (archivo.is_open())
@@ -43,7 +43,7 @@ void PvEmatch(){
     {
         cout << "Error al abrir el archivo" << endl;
     }
-}
+}*/
 
 // Declaración simple para evitar error de compilación
 void Matchrecords() {
