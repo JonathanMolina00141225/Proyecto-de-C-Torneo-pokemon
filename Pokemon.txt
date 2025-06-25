@@ -400,15 +400,15 @@ Hypno
 Vida del Pokémon: 373
 Ataque 1: Psychic; Daño: 90 | PP: 10
 Ataque 2: Shadow Ball; Daño: 80 | PP: 15
-Ataque 3: Hypnosis; Daño: — (Paralizar) | PP: 20
+Ataque 3: Hypnosis; Daño: 90 | PP: 20
 Ataque 4: Dream Eater; Daño: 100 | PP: 15
 
 Onix
 Vida del Pokémon: 273
-Ataque 1: Earthquake; Daño: 100 | PP: 10
-Ataque 2: Rock Slide; Daño: 75 | PP: 10
-Ataque 3: Iron Tail; Daño: 100 | PP: 15
-Ataque 4: Sandstorm; Daño: — (baja la velocidad) | PP: 10
+Ataque 1: Earthquake; Daño: 120 | PP: 30
+Ataque 2: Rock Slide; Daño: 75 | PP: 15
+Ataque 3: Iron Tail; Daño: 100 | PP: 25
+Ataque 4: Sandstorm; Daño: 60 | PP: 5
 
 Kabutops
 Vida del Pokémon: 323
@@ -457,7 +457,7 @@ Vida del Pokémon: 323
 Ataque 1: Bonemerang; Daño: 50 | PP: 10
 Ataque 2: Fire Punch; Daño: 75 | PP: 15
 Ataque 3: Thunder Punch; Daño: 75 | PP: 15
-Ataque 4: Swords Dance; Daño: — (Aumenta Ataque x2) | PP: 20
+Ataque 4: Swords Dance; Daño: 90 | PP: 20
 
 Dragonite
 Vida del Pokémon: 385
