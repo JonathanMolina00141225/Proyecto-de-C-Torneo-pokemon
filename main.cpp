@@ -95,7 +95,7 @@ int main()
         case 2:
         {
             PvEmatch();
-            vector<Pokemon> equipoUsuario = seleccionarPokemonsUsuario(pokemonsParaPve, 1);
+            vector<Pokemon> equipoUsuario = seleccionarPokemonsUsuario(pokemonsParaPve, 3);
             vector<Pokemon> enemigos = pokemonsParaPve;
             batallaPvE(equipoUsuario, enemigos);
             break;
