@@ -3,8 +3,25 @@
 
 #include "pokemon_common.h"
 #include <limits>
+#include <cstdlib> // Para rand
+#include <ctime>   // Para time
 
-void aplicarEfectos(Pokemon& p);
+int calcularDanio(int danioBase, int defensa) {
+    int danioFinal = danioBase - (defensa / 4);
+    return (danioFinal < 1) ? 1 : danioFinal;
+}
+
+void aplicarEfectos(Pokemon& p) {
+    if (p.efecto == VENENO) {
+        int danio = p.vidaMaxima * 0.1;
+        p.vida -= danio;
+        p.rondasConEfecto--;
+        cout << p.nombre << " sufre " << danio << " de daño por veneno!\n";
+        if (p.rondasConEfecto <= 0) {
+            p.efecto = NINGUNO;
+        }
+    }
+}
 
 Pokemon seleccionarPokemon(vector<Pokemon>& pokemons) {
     cout << "\nSelecciona tu Pokemon:\n";
@@ -31,51 +48,66 @@ Pokemon seleccionarPokemon(vector<Pokemon>& pokemons) {
 
 void batallaPvP(vector<Pokemon> equipo1, vector<Pokemon> equipo2) {
     int idx1 = 0, idx2 = 0;
+    srand(time(0));
+
     while (idx1 < (int)equipo1.size() && idx2 < (int)equipo2.size()) {
         Pokemon& jugador = equipo1[idx1];
         Pokemon& rival = equipo2[idx2];
 
-        cout << "\n[Jugador 1] Pokemon: " << jugador.nombre << " (Vida: " << jugador.vida << ")\n";
-        cout << "[Jugador 2] Pokemon: " << rival.nombre << " (Vida: " << rival.vida << ")\n";
+        aplicarEfectos(jugador);
+        aplicarEfectos(rival);
 
-        cout << "\nJugador 1 - Ataques disponibles:\n";
-        for (int i = 0; i < 4; ++i) {
-            cout << i + 1 << ". " << jugador.ataques[i].nombre << " (Daño: " << jugador.ataques[i].danio
-                 << ", PP: " << jugador.ataques[i].pp << ")\n";
+        if (jugador.vida <= 0) {
+            cout << jugador.nombre << " se ha debilitado por efecto!\n";
+            idx1++;
+            continue;
         }
-
-        int ataque;
-        do {
-            cout << "Jugador 1, selecciona ataque (1-4): ";
-            cin >> ataque;
-        } while (ataque < 1 || ataque > 4 || jugador.ataques[ataque - 1].pp <= 0);
-
-        rival.vida -= jugador.ataques[ataque - 1].danio;
-        jugador.ataques[ataque - 1].pp--;
-        cout << jugador.nombre << " uso " << jugador.ataques[ataque - 1].nombre << "!\n";
         if (rival.vida <= 0) {
-            cout << rival.nombre << " se ha debilitado!\n";
+            cout << rival.nombre << " se ha debilitado por efecto!\n";
             idx2++;
             continue;
         }
 
-        cout << "\nJugador 2 - Ataques disponibles:\n";
-        for (int i = 0; i < 4; ++i) {
-            cout << i + 1 << ". " << rival.ataques[i].nombre << " (Daño: " << rival.ataques[i].danio
-                 << ", PP: " << rival.ataques[i].pp << ")\n";
-        }
+        cout << "\n[Jugador 1] Pokemon: " << jugador.nombre << " (Vida: " << jugador.vida << ")\n";
+        cout << "[Jugador 2] Pokemon: " << rival.nombre << " (Vida: " << rival.vida << ")\n";
 
-        do {
-            cout << "Jugador 2, selecciona ataque (1-4): ";
-            cin >> ataque;
-        } while (ataque < 1 || ataque > 4 || rival.ataques[ataque - 1].pp <= 0);
+        bool jugadorVaPrimero = jugador.velocidad >= rival.velocidad;
 
-        jugador.vida -= rival.ataques[ataque - 1].danio;
-        rival.ataques[ataque - 1].pp--;
-        cout << rival.nombre << " uso " << rival.ataques[ataque - 1].nombre << "!\n";
-        if (jugador.vida <= 0) {
-            cout << jugador.nombre << " se ha debilitado!\n";
-            idx1++;
+        for (int turno = 0; turno < 2; ++turno) {
+            Pokemon& atacante = (turno == 0) == jugadorVaPrimero ? jugador : rival;
+            Pokemon& defensor = (turno == 0) == jugadorVaPrimero ? rival : jugador;
+
+            cout << "\nTurno de " << (atacante.nombre) << " - Ataques disponibles:\n";
+            for (int i = 0; i < 4; ++i) {
+                cout << i + 1 << ". " << atacante.ataques[i].nombre << " (Daño: " << atacante.ataques[i].danio
+                     << ", PP: " << atacante.ataques[i].pp << ")\n";
+            }
+
+            int ataque;
+            do {
+                cout << "Selecciona ataque (1-4): ";
+                cin >> ataque;
+            } while (ataque < 1 || ataque > 4 || atacante.ataques[ataque - 1].pp <= 0);
+
+            int danioReal = calcularDanio(atacante.ataques[ataque - 1].danio, defensor.defensa);
+            defensor.vida -= danioReal;
+            atacante.ataques[ataque - 1].pp--;
+
+            cout << atacante.nombre << " usó " << atacante.ataques[ataque - 1].nombre << " e hizo "
+                 << danioReal << " de daño!\n";
+
+            if (defensor.efecto == NINGUNO && (rand() % 100 < 25)) {
+                defensor.efecto = VENENO;
+                defensor.rondasConEfecto = 3;
+                cout << defensor.nombre << " fue envenenado!\n";
+            }
+
+            if (defensor.vida <= 0) {
+                cout << defensor.nombre << " se ha debilitado!\n";
+                if (&defensor == &jugador) idx1++;
+                else idx2++;
+                break;
+            }
         }
     }
 

@@ -6,31 +6,12 @@
 
 using namespace std;
 
-/*void PvPmatch(){
+// 👇 IMPORTANTE: Esta línea evita errores en seleccionarPokemon
+Pokemon seleccionarPokemon(vector<Pokemon>& pokemons);
+
+void PvPmatch() {
     ifstream archivo("pvp.txt");
-
-    if (archivo.is_open())
-    {
-        cout << endl;
-        string linea;
-        while (getline(archivo, linea))  // ← CORREGIDO: lectura correcta
-        {
-            cout << linea << endl;
-        }
-        archivo.close();
-        cout << "..." << endl;
-    }
-    else
-    {
-        cout << "Error al abrir el archivo" << endl;
-    }
-}
-
-void PvEmatch(){
-    ifstream archivo("pve2.txt");
-
-    if (archivo.is_open())
-    {
+    if (archivo.is_open()) {
         cout << endl;
         string linea;
         while (getline(archivo, linea)) {
@@ -38,22 +19,33 @@ void PvEmatch(){
         }
         archivo.close();
         cout << "..." << endl;
-    }
-    else
-    {
+    } else {
         cout << "Error al abrir el archivo" << endl;
     }
-}*/
+}
 
-// Declaración simple para evitar error de compilación
+void PvEmatch() {
+    ifstream archivo("pve2.txt");
+    if (archivo.is_open()) {
+        cout << endl;
+        string linea;
+        while (getline(archivo, linea)) {
+            cout << linea << endl;
+        }
+        archivo.close();
+        cout << "..." << endl;
+    } else {
+        cout << "Error al abrir el archivo" << endl;
+    }
+}
+
 void Matchrecords() {
     cout << "\n[Historial de partidas próximamente disponible.]\n";
 }
 
-int main(){
+int main() {
     int menu;
 
-    // Cargar pokémons para ambos modos desde el archivo común
     vector<Pokemon> pokemonsParaPvp = leerPokemons("Pokemon_formato_para_juego.txt");
     vector<Pokemon> pokemonsParaPve = leerPokemons("Pokemon_formato_para_juego.txt");
 
@@ -66,7 +58,7 @@ int main(){
         cout << "4. Exit game" << endl;
         cin >> menu;
 
-        switch (menu){
+        switch (menu) {
             case 1:
                 PvPmatch();
                 cout << "\nPvP - Jugador 1 selecciona su equipo:\n";

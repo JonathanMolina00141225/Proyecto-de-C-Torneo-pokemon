@@ -17,18 +17,30 @@ struct Ataque {
     int pp;
 };
 
-enum EfectoEstado { NINGUNO, QUEMADURA, VENENO };
+enum EfectoEstado { Ninguno, Quemadura, Veneno };
 
 struct Pokemon {
     string nombre;
     int vida;
+    int vidaMaxima;
     int puntos;
+    int velocidad;  // Nuevo
+    int defensa;    // Nuevo
     Ataque ataques[4];
     bool vivo = true;
-
-    EfectoEstado efecto = NINGUNO;
+    EfectoEstado efecto = Ninguno;
     int rondasConEfecto = 0;
 };
+
+inline void aplicarEfectos(Pokemon& p) {
+    if (p.efecto == Veneno) {
+        int danioVeneno = p.vidaMaxima * 0.1;
+        p.vida -= danioVeneno;
+        cout << p.nombre << " sufre " << danioVeneno << " de daño por veneno!\n";
+    }
+}
+
+
 
 vector<Pokemon> leerPokemons(const string& archivoNombre) {
     ifstream archivo(archivoNombre);
