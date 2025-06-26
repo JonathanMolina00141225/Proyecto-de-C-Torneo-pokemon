@@ -11,40 +11,33 @@ int calcularDanio(int danioBase, int defensa) {
     return (danioFinal < 1) ? 1 : danioFinal;
 }
 
-void aplicarEfectos(Pokemon& p) {
-    if (p.efecto == VENENO) {
-        int danio = p.vidaMaxima * 0.1;
-        p.vida -= danio;
-        p.rondasConEfecto--;
-        cout << p.nombre << " sufre " << danio << " de daño por veneno!\n";
-        if (p.rondasConEfecto <= 0) {
-            p.efecto = NINGUNO;
+vector<Pokemon> seleccionarPokemonsUsuario(vector<Pokemon>& pokemons, int cantidad) {
+    vector<Pokemon> seleccionados;
+    for (int i = 0; i < cantidad; ++i) {
+        cout << "\nSelecciona el Pokémon #" << (i + 1) << ":\n";
+        for (size_t j = 0; j < pokemons.size(); ++j) {
+            cout << j + 1 << ". " << pokemons[j].nombre << " (Vida: " << pokemons[j].vida << ")\n";
         }
+        int eleccion;
+        do {
+            cout << "Opción: ";
+            cin >> eleccion;
+            if (cin.fail() || eleccion < 1 || eleccion > (int)pokemons.size()) {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout << "Opción inválida. Intenta de nuevo.\n";
+            } else {
+                break;
+            }
+        } while (true);
+
+        Pokemon elegido = pokemons[eleccion - 1];
+        seleccionados.push_back(elegido);
+        pokemons.erase(pokemons.begin() + eleccion - 1);
     }
+    return seleccionados;
 }
 
-Pokemon seleccionarPokemon(vector<Pokemon>& pokemons) {
-    cout << "\nSelecciona tu Pokemon:\n";
-    for (size_t i = 0; i < pokemons.size(); ++i) {
-        cout << i + 1 << ". " << pokemons[i].nombre << " (Vida: " << pokemons[i].vida << ")\n";
-    }
-    int eleccion;
-    do {
-        cout << "Opcion: ";
-        cin >> eleccion;
-        if (cin.fail() || eleccion < 1 || eleccion > (int)pokemons.size()) {
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << "Opcion invalida. Intenta de nuevo.\n";
-        } else {
-            break;
-        }
-    } while (true);
-
-    Pokemon elegido = pokemons[eleccion - 1];
-    pokemons.erase(pokemons.begin() + eleccion - 1);
-    return elegido;
-}
 
 void batallaPvP(vector<Pokemon> equipo1, vector<Pokemon> equipo2) {
     int idx1 = 0, idx2 = 0;
@@ -79,7 +72,7 @@ void batallaPvP(vector<Pokemon> equipo1, vector<Pokemon> equipo2) {
 
             cout << "\nTurno de " << (atacante.nombre) << " - Ataques disponibles:\n";
             for (int i = 0; i < 4; ++i) {
-                cout << i + 1 << ". " << atacante.ataques[i].nombre << " (Daño: " << atacante.ataques[i].danio
+                cout << i + 1 << ". " << atacante.ataques[i].nombre << " (Dano: " << atacante.ataques[i].danio
                      << ", PP: " << atacante.ataques[i].pp << ")\n";
             }
 
@@ -94,10 +87,10 @@ void batallaPvP(vector<Pokemon> equipo1, vector<Pokemon> equipo2) {
             atacante.ataques[ataque - 1].pp--;
 
             cout << atacante.nombre << " usó " << atacante.ataques[ataque - 1].nombre << " e hizo "
-                 << danioReal << " de daño!\n";
+                 << danioReal << " de dano!\n";
 
-            if (defensor.efecto == NINGUNO && (rand() % 100 < 25)) {
-                defensor.efecto = VENENO;
+            if (defensor.efecto == Ninguno && (rand() % 100 < 25)) {
+                defensor.efecto = Veneno;
                 defensor.rondasConEfecto = 3;
                 cout << defensor.nombre << " fue envenenado!\n";
             }

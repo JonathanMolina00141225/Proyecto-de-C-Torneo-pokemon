@@ -8,13 +8,6 @@
 #include <iostream>
 #include <vector>
 
-void aplicarEfectos(Pokemon& p) {
-    if (p.efecto == VENENO) {
-        int danioVeneno = p.vidaMaxima * 0.1;
-        p.vida -= danioVeneno;
-        cout << p.nombre << " sufre " << danioVeneno << " de da\u00f1o por veneno!\n";
-    }
-}
 
 int calcularDanio(const Ataque& atk, const Pokemon& defensor) {
     return std::max(1, atk.danio - defensor.defensa);
@@ -42,6 +35,7 @@ Pokemon seleccionarPokemonUsuario(vector<Pokemon>& pokemons) {
     pokemons.erase(pokemons.begin() + eleccion - 1);
     return elegido;
 }
+
 
 Pokemon seleccionarPokemonRandom(const vector<Pokemon>& pokemons) {
     if (pokemons.empty()) return Pokemon{};

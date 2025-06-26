@@ -36,7 +36,7 @@ inline void aplicarEfectos(Pokemon& p) {
     if (p.efecto == Veneno) {
         int danioVeneno = p.vidaMaxima * 0.1;
         p.vida -= danioVeneno;
-        cout << p.nombre << " sufre " << danioVeneno << " de daño por veneno!\n";
+        cout << p.nombre << " sufre " << danioVeneno << " de dano por veneno!\n";
     }
 }
 
